@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #cecece;
+}
+.vertical{
+    background-color: #4e73df;
+    width: 220px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.vertical div{
+    padding: 20px 0;
+    border-bottom: rgb(139, 139, 247) 0.1px solid;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+    
+}
+.logo i{
+    font-size: xx-large;
+
+}
+.dash{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.inter p{
+    color: #aeaeb0;
+    font-size: xx-small;
+    font-weight: 900;
+}
+.components{
+    position: relative;
+}
+.components2{
+    display: none;
+    position: absolute;
+}
+.dropbtn{
+    background-color:#4e73df;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #aeaeb0;
+
+}
+.dropbtn:hover .components2{
+    display: flex;
+}
+.horizontal{
+    height: 100px;
+    background-color: #fff;
+    width: calc(100%-260px);
+    display:flex;
+}

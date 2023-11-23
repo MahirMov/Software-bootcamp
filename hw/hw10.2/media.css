@@ -1,0 +1,38 @@
+
+@media (max-width:768px) {
+    .h-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont2{
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .fl{
+        flex-direction: column;
+    }
+}
+@media (max-width:320px) {
+    .cont1-p{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .cont1-h{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:550px) {
+    li{
+        display: flex;
+        flex-direction: column;
+    }
+}

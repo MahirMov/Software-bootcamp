@@ -1,0 +1,98 @@
+body{
+    color: brown;
+}
+.header{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0px;
+    width: 500px;
+    height: 100%;
+display: flex;
+justify-content: center;
+}
+.links{
+    padding: 0 50px;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    list-style: none;
+    color: brown;
+    text-decoration: none;
+    height: 36px;
+    padding: 5px 20px;
+    border-radius: 18px;
+
+
+}
+a:hover{
+    background-color: brown;
+    color: #fff;
+    box-shadow: 0 0 5px black;
+    height: 36px;
+    border-radius: 18px;
+    padding: 5px 20px;
+    transition: all 0.4s;
+
+}
+li{
+list-style: none;
+}
+button{
+    background-color: brown;
+    border: none;
+    height: 36px;
+    border-radius: 18px;
+    padding: 5px 20px;
+    color: #fff;
+}
+button:hover{
+    box-shadow: 0 0 10px black ;
+    transition: all 0.4s;
+}
+.p1{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin: 60px 0;
+
+}
+.pl{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.pr{
+    width: 500px;
+    height: 300px;
+    
+}
+.st{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+img:hover{
+    box-shadow: 0 0 20px black;
+    transition: all 0.3s;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    background-image: url(Group-Work.jpg );
+    object-fit: cover;
+    
+}

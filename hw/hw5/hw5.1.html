@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        background-color: cyan;
+    }
+
+    th,
+    td {
+        border: solid 1px black;
+
+    }
+
+    table {
+        width: 1100px;
+        border: outset black 8px;
+    }
+
+    td {
+        height: 40px;
+    }
+
+    .a {
+        width: 300px;
+        margin-left: 10px;
+    }
+</style>
+
+<body>
+    <section>
+        <table>
+            <tr>
+                <th colspan="2">
+                    <h1>Student registradion form</h1>
+                </th>
+            </tr>
+            <tr>
+                <td><label for="n">Name</label></td>
+                <td><input type="text" id="n" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="fn"> Father Name</label></td>
+                <td><input type="text" id="fn" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="a">Post Address</label></td>
+                <td><input type="text" id="a" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="pa">Personal Address</label></td>
+                <td><input type="text" id="pa" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="g">Gender</label></td>
+                <td><input type="radio" id="g"><label for="g">Male</label><input type="radio" id="g"><label
+                        for="g">Female</label></td>
+            </tr>
+            <tr>
+                <td><label for="c">City</label></td>
+                <td><select id="c">
+                        <option>Baki</option>
+                        <option>Ganca</option>
+                        <option>Nakhchivan</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="co">Course</label></td>
+                <td><select id="co">
+                        <option>Course1</option>
+                        <option>Course2</option>
+                        <option>Course3</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="d">district</label></td>
+                <td><select id="d">
+                        <option>District1</option>
+                        <option>District2</option>
+                        <option>District3</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="s">State</label></td>
+                <td><select id="s">
+                        <option>State1</option>
+                        <option>State2</option>
+                        <option>State3</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="p">PinCode</label></td>
+                <td><input type="password" id="p" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="e">Email ID</label></td>
+                <td><input type="email" id="e" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="da">DOB</label></td>
+                <td><input type="date" id="da" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="m">Phone Number</label></td>
+                <td><input type="tel" id="n" class="a"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Reset"></td>
+                <td><input type="submit" value="Submit form"></td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+
+</html>

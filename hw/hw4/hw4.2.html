@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    body {
+        background-color: rgb(207, 236, 252);
+    }
+
+    .s1{
+        width: 500px;
+        margin-left: 30px;
+        height: 30px;
+    }
+    
+    label {
+        margin-left: 30px;
+    }
+    .s2{
+        margin: 0px;
+    }
+    .s3{
+        margin-left: 30px;
+    }
+
+</style>
+
+<body>
+    <h1>Student Registation Form</h1>
+    <form>
+
+        <div>
+            <label for="fn">First Name:</label><br>
+            <input class="s1" type="text" placeholder="First Name">
+        </div><br><br><br>
+
+        <div>
+            <label for="mn">Middle Name:</label><br>
+            <input class="s1" type="text" placeholder="Middle Name">
+        </div><br><br><br>
+
+        <div>
+            <label for="ln">Last Name:</label><br>
+            <input class="s1" type="text" placeholder="Last Name">
+        </div><br><br><br>
+
+        <label for="">Course:</label>
+        <select>
+            <option>Eng</option>
+            <option>Math</option>
+            <option>Art</option>
+        </select><br><br>
+
+        <label for="g">Gender:</label><br>
+        <input class="s3" type="radio" id="male"> 
+        <label class="s2" for="male">Male</label>
+        <input class="s3" type="radio" id="fm"> 
+        <label class="s2" for="fm">Female</label><br><br>
+
+        <div>
+            <label for="pn">Phone Number:</label><br>
+            <input class="s1" type="tel" placeholder="Current Address">
+        </div><br><br><br>
+
+        <div>
+            <label for="ca">Current Address:</label><br>
+            <textarea id="ca" rows="10" style="width: 500px; margin-left: 30px;"></textarea>
+        </div><br><br><br>
+
+        <div>
+            <label for="em">Emal:</label><br>
+            <input class="s1" type="email" placeholder="Email Address">
+        </div><br><br><br>
+
+        <div>
+            <label for="p">Password:</label><br>
+            <input class="s1" type="password" placeholder="Password">
+        </div><br><br><br>
+
+        <div>
+            <label for="p">Re-type Password:</label><br>
+            <input class="s1" type="password" placeholder="Re-type Password">
+        </div><br><br><br>
+
+        <input type="submit" value="Register" style="width: 100%; background-color: green; height: 30px; color: #fff;">
+    </form>
+
+</body>
+
+</html>

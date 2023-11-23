@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 120px;
+    background-color: #222;
+    margin: 0;
+    padding: 0 60px 35px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: #fff;
+    border: 1px solid white;
+    position: sticky;
+    top: -70px;
+    z-index: 100;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+li a {
+    color: rgb(145, 144, 144);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #fff;
+}
+
+.content {
+    padding: 70px 100px;
+}
+
+.content1 {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.top {
+    font-size: 50px;
+    font-weight: 600
+}
+
+.low {
+    font-size: 25px;
+}
+
+button {
+    background-color: #0d6efd;
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: #0748ab;
+}
+
+.scs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.sc {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 40px;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 70px 70px 40px 70px;
+    width: 330px;
+    border-radius: 10px;
+}
+
+.icon {
+    background-color: #0d6efd;
+    padding: 16px;
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    top: -30px;
+}
+
+.top1 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+footer {
+    height: 150px;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+media ni grid olmadan duzelde bilmedim grid de bilmirem deye ortaya emelli bir sey cixarammadim responsivlik bakimindan
+*/

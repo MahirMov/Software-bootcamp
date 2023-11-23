@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+.header{
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #ccc;
+    padding-top: 20px;
+}
+
+.header .logo img{
+height: 80px;
+width: 200px;
+object-fit: contain;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    margin: 0 20px;
+    list-style: none;
+
+}
+.headera{
+    text-decoration: none;
+    color: #000;
+    padding: 0;
+}
+.headera:hover{
+    color: red;
+    text-decoration: underline;
+}
+.part{
+    background-color: rgb(247, 69, 69);
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 50px 0;
+}
+.parta{
+    color: black;
+}
+.parta:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.pht{
+    display: flex;
+    justify-content: space-evenly;
+}
+.phts:hover{
+    margin-top: 30px;
+    transition: ease-in .5s;
+}

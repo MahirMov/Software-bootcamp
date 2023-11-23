@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(desk-setup-idea-7.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.bg{
+    background-color: blueviolet;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.sign{
+    padding: 10px 30px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: none;
+}
+li a{
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+li{
+    list-style:none;
+
+}

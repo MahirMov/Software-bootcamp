@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+h3{
+    color: darkgray;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+button{
+    border: none;
+    margin: 0px 20px;
+    background-color: white;
+    height: 30px;
+}
+button:hover{
+    border: solid 2px gray;
+    border-radius: 15px;
+    background-color: aliceblue;
+}

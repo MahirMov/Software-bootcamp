@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins&family=Quicksand:wght@300;400&family=Work+Sans:wght@500&display=swap');
+body {
+    background-image: url(2.png);
+    padding: 0 130px;
+}
+.logo {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.basliq {
+    text-align: center;
+    color: #449856;
+    font-family: 'Poppins', sans-serif;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+hr {
+    background: #FFD000;
+    width: 147px;
+    height: 6px;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.tooltip{
+    background-color: white;
+    padding: 20px;
+}
